@@ -1,0 +1,128 @@
+.card{
+    
+    height: 250px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.card-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.1);
+    /* border-radius: 15px; */
+    /* background: rgba(255, 255,255,0.1); */
+    
+}
+
+.card-container:hover{
+    background-color:rgb(217, 231, 254);
+    scale: 1.08;
+    transition: 2.4;
+    
+}
+
+.series-name{
+    left: 4px;
+    position: relative;
+    color:#6f6f6f;
+    font-weight: 500;
+    
+}
+.card-container-span{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    
+    align-items: center;
+    border-bottom:1px solid rgb(101, 98, 98);
+}
+.card-container-span-a{
+    width: 100%;
+    height: 75%;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.card-container-span-a a{
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+.teams{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-weight: 500;
+
+}
+.temaname1{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.temaname2{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.span{
+ color: rgb(20, 20, 20);
+
+ text-decoration: none;
+}
+.status{
+    color:rgb(255, 251, 251);
+    border: 1px solid rgb(9, 182, 250);
+    background-color: rgb(9, 182, 250);
+    border-radius: 5px;
+   margin-top: 40px;
+   padding: 10px;
+ 
+}
+.status:hover{
+    background-color: rgb(1, 1, 73);
+    border: 2px solid rgb(0, 0, 76);
+}
+
+@media screen and (max-width:424px) {
+
+    .card-container{
+        font-size: 12px;
+    }
+    
+}
+.img1{
+    margin-top: 30px;
+    width: 80px;
+    height: 100px;
+}
+
+.teami{
+    background-color:rgb(49, 197, 255) ;
+    color: white;
+    border-radius: 8px;
+}
+.img2{
+    width: 50px;
+    height: 50px;
+}
